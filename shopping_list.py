@@ -5,6 +5,8 @@ shopping_list = []
 def add_to_list(item):
     # Add the item to the list
     shopping_list.append(item)
+    # Notify user that the item was added, and state the number of items in the list currently
+    print("Added! List has {} items.".format(len(shopping_list)))
 
 def show_help():
     print("What should we pick up at the store?")
